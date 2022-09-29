@@ -18,6 +18,8 @@ public class Ejercicio1 {
 		que seamos al corregir Ej. si subimos a partir de un 0.4 se le añade 0.6 al numero
 		introducido*/ 
 		System.out.print((int)(numero+0.5));
+		//Cerramos el scanner
+		sc.close();
 	}
 
 }
