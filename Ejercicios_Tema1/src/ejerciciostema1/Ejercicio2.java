@@ -20,8 +20,8 @@ public class Ejercicio2 {
 		suma = 7 - resto;
 		/*Si es resto es 0, le dicimos al usuario que ya es múltiplo de 7 pero si no lo es
 		le decimos cuanto la felta para serlo*/
-		System.out.print(resto==0 ? "Su número ya es multiplo de 7" : "Si a su número se le suma "
-			+suma +" seía multiplo de 7");
+		System.out.print(resto==0 ? "Su número ya es multiplo de 7" : "Si a " +numero+" se le suma "
+			+suma +" sería multiplo de 7");
 		//Cerramos el scanner
 		sc.close();
 	}
